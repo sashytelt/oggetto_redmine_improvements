@@ -381,7 +381,7 @@ table.list tr.issue.priority-14 td.priority:before, .issue.priority-14 .priority
 table.list tr.issue.priority-16 td.priority:before, .issue.priority-16 .priority .value:before { content: 'Very Low'; display:block; background-color:#d3f4e9; color:#2a8;}
 
 table.list tr.issue td.status, .status .value { content: ''; font-size:0; padding-right: 10px; line-height: 1.5em;}
-table.list tr.issue td.status:before, .status .value:before {display:inline-block; font-size:12px; text-transform:uppercase; border-radius:3px; padding: 5px; width: 70px; text-align: center; line-height: 1.5em;}
+table.list tr.issue td.status:before, .status .value:before {display:inline-block; font-size:12px; text-transform:uppercase; border-radius:3px; padding: 5px; text-align: center; line-height: 1.5em;}
 .status .value:before {line-height: 1em; }
 table.list tr.issue.status-1 td.status:before, .issue.status-1 .status .value:before { content: 'New'; display:block; background-color:#f4ecff; color:#ba7df4;}
 table.list tr.issue.status-2 td.status:before, .issue.status-2 .status .value:before { content: 'In Progress'; display:block; background-color:#f4ecff; color:#ba7df4;}
