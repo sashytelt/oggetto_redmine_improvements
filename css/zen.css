@@ -386,8 +386,8 @@ table.list tr.issue td.status:before, .status .value:before {display:inline-bloc
 table.list tr.issue.status-1 td.status:before, .issue.status-1 .status .value:before { content: 'New'; display:block; background-color:#b4eccc; color:#68b388;}
 table.list tr.issue.status-2 td.status:before, .issue.status-2 .status .value:before { content: 'In Progress'; display:block; background-color:#fcf1c5; color:#dec564;}
 table.list tr.issue.status-3 td.status:before, .issue.status-3 .status .value:before { content: 'Resolved'; display:block; background-color:#daecf8; color:#85c1e9;}
-table.list tr.issue.status-4 td.status:before, .issue.status-4 .status .value:before { content: 'Feedback'; display:block; background-color:#f9d4d0; color:#82E0AA;}
-table.list tr.issue.status-5 td.status:before, .issue.status-5 .status .value:before { content: 'Closed'; display:block; background-color:#eaecee; color:#d5d8dc;}
+table.list tr.issue.status-4 td.status:before, .issue.status-4 .status .value:before { content: 'Feedback'; display:block; background-color:#f9d4d0; color:#Ed3a28;}
+table.list tr.issue.status-5 td.status:before, .issue.status-5 .status .value:before { content: 'Closed'; display:block; background-color:#eaecee; color:#6b6c6e;}
 table.list tr.issue.status-6 td.status:before, .issue.status-6 .status .value:before { content: 'Rejected'; display:block; background-color:#e6e8ea; color:#787d82;}
 table.list tr.issue.status-7 td.status:before, .issue.status-7 .status .value:before { content: 'Suspended'; display:block; background-color:#e6e8ea; color:#787d82;}
 table.list tr.issue.status-11 td.status:before, .issue.status-11 .status .value:before { content: 'Not Approved'; display:block; background-color:#f4ecff; color:#ba7df4;}
