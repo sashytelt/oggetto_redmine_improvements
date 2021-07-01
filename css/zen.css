@@ -370,11 +370,15 @@ li.issue a span.project:before {content: "·"; padding-right:4px; display:inline
 table.list tr.issue td.priority, .priority .value { content: ''; font-size:0; padding-right: 10px; line-height: 1.5em;}
 table.list tr.issue td.priority:before, .priority .value:before {display:inline-block; font-size:12px; text-transform:uppercase; border-radius:3px; padding: 5px; width: 70px; text-align: center; line-height: 1.5em;}
 .priority .value:before {line-height: 1em; }
-table.list tr.issue.priority-3 td.priority:before, .issue.priority-3 .priority .value:before { content: 'Low'; display:block; background-color:#d3f4e9; color:#2a8;}
-table.list tr.issue.priority-4 td.priority:before, .issue.priority-4 .priority .value:before { content: 'Normal'; display:block; background-color:#f4f4f4; color:#9f9f9f;}
-table.list tr.issue.priority-5 td.priority:before, .issue.priority-5 .priority .value:before { content: 'High'; display:block; background-color:#fff1e2; color:#f1a454;} 
-table.list tr.issue.priority-6 td.priority:before, .issue.priority-6 .priority .value:before { content: 'Urgent'; display:block; background-color:#fee4ed; color:#f0437b;} 
-table.list tr.issue.priority-7 td.priority:before, .issue.priority-7 .priority .value:before { content: 'Immediate'; display:block; background-color:#f4ecff; color:#ba7df4;}
+table.list tr.issue.priority-1 td.priority:before, .issue.priority-1 .priority .value:before { content: 'Low'; display:block; background-color:#d3f4e9; color:#2a8;}
+table.list tr.issue.priority-2 td.priority:before, .issue.priority-2 .priority .value:before { content: 'Normal'; display:block; background-color:#d3f4e9; color:#2a8;}
+table.list tr.issue.priority-3 td.priority:before, .issue.priority-3 .priority .value:before { content: 'High'; display:block; background-color:#d3f4e9; color:#2a8;}
+table.list tr.issue.priority-4 td.priority:before, .issue.priority-4 .priority .value:before { content: 'Urgent'; display:block; background-color:#d3f4e9; color:#2a8;}
+table.list tr.issue.priority-5 td.priority:before, .issue.priority-5 .priority .value:before { content: 'Immediate'; display:block; background-color:#d3f4e9; color:#2a8;}
+table.list tr.issue.priority-11 td.priority:before, .issue.priority-11 .priority .value:before { content: 'Yesterday'; display:block; background-color:#d3f4e9; color:#2a8;}
+table.list tr.issue.priority-12 td.priority:before, .issue.priority-12 .priority .value:before { content: '2 weeks ago'; display:block; background-color:#d3f4e9; color:#2a8;}
+table.list tr.issue.priority-14 td.priority:before, .issue.priority-14 .priority .value:before { content: '33 years ago'; display:block; background-color:#d3f4e9; color:#2a8;}
+table.list tr.issue.priority-16 td.priority:before, .issue.priority-16 .priority .value:before { content: 'Very Low'; display:block; background-color:#d3f4e9; color:#2a8;}
 .autoscroll {margin-bottom: 0px;}
 table.list:not(.odd-even) tbody tr:nth-child(2n+1):hover, .odd:hover, #issue-changesets div.changeset:nth-child(2n+1):hover, table.list:not(.odd-even) tbody tr:nth-child(2n):hover, .even:hover, #issue-changesets div.changeset:nth-child(2n):hover{background-color: #cdd2db;}
 div.issue table.list tr.issue td {padding: 5px 10px 5px 0;}
