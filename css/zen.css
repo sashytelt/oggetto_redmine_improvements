@@ -401,6 +401,17 @@ table.list tr.issue.status-20 td.status:before, .issue.status-20 .status .value:
 table.list tr.issue.status-15 td.status:before, .issue.status-15 .status .value:before { content: 'Ready'; display:block; background-color:#fee4ed; color:#f0437b;} 
 table.list tr.issue.status-16 td.status:before, .issue.status-16 .status .value:before { content: 'Authorized'; display:block; background-color:#f4ecff; color:#ba7df4;}
 table.list tr.issue.status-17 td.status:before, .issue.status-17 .status .value:before { content: 'Roll-backed'; display:block; background-color:#f4ecff; color:#ba7df4;}
+table.list tr.issue.status-25 td.status:before, .issue.status-25 .status .value:before { content: 'In progress (LT-TM)'; display:block; background-color:#b4eccc; color:#68b388;}
+table.list tr.issue.status-26 td.status:before, .issue.status-26 .status .value:before { content: 'In progress (LT-APP)'; display:block; background-color:#fcf1c5; color:#dec564;}
+table.list tr.issue.status-27 td.status:before, .issue.status-27 .status .value:before { content: 'In progress (MD-OPS)'; display:block; background-color:#daecf8; color:#85c1e9;}
+table.list tr.issue.status-28 td.status:before, .issue.status-28 .status .value:before { content: 'Pending (MD-OPS)'; display:block; background-color:#f9d4d0; color:#Ed3a28;}
+table.list tr.issue.status-29 td.status:before, .issue.status-29 .status .value:before { content: 'Pending (LT-APP)'; display:block; background-color:#eaecee; color:#6b6c6e;}
+table.list tr.issue.status-30 td.status:before, .issue.status-30 .status .value:before { content: 'Pending (LT-TM)'; display:block; background-color:#e6e8ea; color:#787d82;}
+table.list tr.issue.status-31 td.status:before, .issue.status-31 .status .value:before { content: 'In progress (DK-INFRA)'; display:block; background-color:#e6e8ea; color:#787d82;}
+table.list tr.issue.status-32 td.status:before, .issue.status-32 .status .value:before { content: 'Pending (DK-INFRA)'; display:block; background-color:#e6e8ea; color:#787d82;}
+table.list tr.issue.status-33 td.status:before, .issue.status-33 .status .value:before { content: 'In progress (LT-DEVOPS)'; display:block; background-color:#e6e8ea; color:#787d82;}
+table.list tr.issue.status-34 td.status:before, .issue.status-34 .status .value:before { content: 'Pending (LT-DEVOPS)'; display:block; background-color:#e6e8ea; color:#787d82;}
+
 
 .autoscroll {margin-bottom: 0px;}
 table.list:not(.odd-even) tbody tr:nth-child(2n+1):hover, .odd:hover, #issue-changesets div.changeset:nth-child(2n+1):hover, table.list:not(.odd-even) tbody tr:nth-child(2n):hover, .even:hover, #issue-changesets div.changeset:nth-child(2n):hover{background-color: #cdd2db;}
